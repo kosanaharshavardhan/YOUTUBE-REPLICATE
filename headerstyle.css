@@ -1,0 +1,62 @@
+div{
+    border: 1px solid springgreen;
+}
+.header{
+    display: flex;
+    height: 8%;
+    justify-content: space-between;
+}
+.left{
+    width: 200px;
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+.middle{
+    background-color: white;
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:500px;
+    border: 2px solid black;
+}
+.sidebar menu{
+    width: 36px;
+    color: white;
+}
+.input{
+    vertical-align: middle;
+    flex: 1;
+    border-radius: 15px;
+}
+input::placeholder{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.search1{
+    vertical-align: middle;
+}
+.search2{
+    vertical-align: middle;
+}
+.right{
+    width: 200px;
+    justify-content: space-between;
+    display: flex;
+    margin-right:15px;
+}
+.icon4{
+    background-color: purple;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-weight:medium;
+    font-size: large;
+    color:white;
+}
+
